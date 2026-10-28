@@ -4,6 +4,7 @@ import jakarta.persistence.Entity;
 
 @Entity
 public class TaxeIr {
+    @id
     private Long id;
     private String reference;
     private String libelle;
