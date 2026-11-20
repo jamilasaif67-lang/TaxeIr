@@ -1,10 +1,11 @@
 package com.example.TaxeIr.Entity;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 @Entity
 public class TaxeIr {
-    @id
+    @Id
     private Long id;
     private String reference;
     private String libelle;
